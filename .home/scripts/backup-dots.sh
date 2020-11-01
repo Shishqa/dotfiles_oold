@@ -84,11 +84,11 @@ backup_home
 dump_packages
 push_changes
 
-printf "\n"
-
 if ! crontab -l | grep "backup_dots"; then
     echo -e "${green}>>> Registering to crontab <<<${nc}"
     (crontab -l ; echo "0 * * * * backup_dots > /dev/null 2>&1") | sort - | uniq - | crontab - 2>&1
 fi
+
+printf "\n"
 
 #==========================================================================#
