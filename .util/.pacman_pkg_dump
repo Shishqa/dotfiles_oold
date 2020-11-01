@@ -16,6 +16,7 @@ ccls
 check
 clang
 cowsay
+cronie
 ctags
 dmenu
 doxygen
