@@ -1,0 +1,11 @@
+{
+    "snippets": {
+        "userSnippetsDirectory" : "/home/shishqa/.config/nvim/snippets"
+    },
+    "cSpell.userWords": [
+      "Shishatskiy",
+      "Shishqa",
+      "clangd",
+      "cyberbullying"
+    ]
+}

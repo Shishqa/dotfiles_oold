@@ -1,0 +1,10 @@
+/*
+
+!.gitignore
+
+!vifmrc/
+
+!colors/
+colors/*
+!colors/minimal.vifm
+

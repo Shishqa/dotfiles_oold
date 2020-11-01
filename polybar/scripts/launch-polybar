@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Terminate already running bar instances
+killall -q polybar
+
+# Wait until the processes have been shut down
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+
+CONFIG=$HOME/.config/polybar/bars.ini
+
+# Launch bar
+#polybar --config=$CONFIG left  -rq &
+#polybar --config=$CONFIG mid  -rq &
+#polybar --config=$CONFIG right  -rq &
+
+polybar --config=$CONFIG top    -rq &
+polybar --config=$CONFIG bottom -rq &

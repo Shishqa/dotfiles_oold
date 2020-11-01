@@ -1,0 +1,5 @@
+cache/
+vim-plug/*
+!vim-plug/plugins.vim
+vim-profiler/
+.netrwhist
