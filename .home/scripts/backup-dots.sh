@@ -70,6 +70,8 @@ push_changes() {
         git commit -m "updating dotfiles on $(date -u)"
         git push origin master
     fi
+
+    echo -e "${green}>>> Done <<<${nc}"
 }
 
 #==========================================================================#
@@ -77,9 +79,11 @@ push_changes() {
 # SCRIPT BEGIN
 
 printf "\n"
+
 backup_home
 dump_packages
 push_changes
+
 printf "\n"
 
 #==========================================================================#
