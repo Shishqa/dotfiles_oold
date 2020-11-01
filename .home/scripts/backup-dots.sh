@@ -86,9 +86,9 @@ push_changes
 
 printf "\n"
 
-if ! crontab -l | grep "$THIS_SCRIPT_FULL_PATH"; then
+if ! crontab -l | grep "backup_dots"; then
     echo -e "${green}>>> Registering to crontab <<<${nc}"
-    (crontab -l ; echo "0 * * * * $THIS_SCRIPT_FULL_PATH > /dev/null 2>&1") | sort - | uniq - | crontab - 2>&1
+    (crontab -l ; echo "0 * * * * backup_dots > /dev/null 2>&1") | sort - | uniq - | crontab - 2>&1
 fi
 
 #==========================================================================#
