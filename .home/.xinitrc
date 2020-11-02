@@ -23,4 +23,5 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
+xset r rate 250 35
 exec bspwm
