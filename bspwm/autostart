@@ -5,6 +5,8 @@ picom &
 
 nitrogen --restore &
 
+flameshot &
+
 ~/.config/polybar/scripts/launch-polybar &
 
 libinput-gestures-setup start &
