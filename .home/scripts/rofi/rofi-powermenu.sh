@@ -18,7 +18,7 @@ case $chosen in
     $option0)
         lock;;
     $option1)
-        i3-msg exit;;
+        bspc quit;;
     $option2)
         systemctl suspend;;
 	$option3)

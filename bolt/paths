@@ -1,0 +1,7 @@
+# List of paths to generate shortcut list (hash commentable)
+# Give absolute paths
+
+/home/shishqa/dev/
+/home/shishqa/scripts/
+/home/shishqa/media/
+/home/shishqa/.config/

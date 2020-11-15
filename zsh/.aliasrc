@@ -3,6 +3,8 @@
 alias ls='ls -a --color=auto'
 alias p='sudo pacman'
 
+alias e='urxvt -e vifm . ~ &' 
+
 alias vim='nvim'
 alias v='vim'
 

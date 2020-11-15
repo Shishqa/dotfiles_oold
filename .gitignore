@@ -13,10 +13,12 @@
 !zsh/
 !nvim/
 !vifm/
+!bolt/
 !bspwm/
 !htop/
 !dunst/
 !neofetch/
+!vimiv/
 !flameshot/
 !polybar/
 !sxhkd/

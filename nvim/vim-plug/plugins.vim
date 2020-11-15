@@ -9,8 +9,7 @@ let g:coc_global_extensions = [
             \'coc-html', 
             \'coc-clangd', 
             \'coc-snippets',
-            \'coc-template',
-            \'coc-spell-checker'
+            \'coc-template'
             \]
 
 " better commentary

@@ -8,11 +8,18 @@ super + Return
 
 # file explorer
 super + e
-    urxvt -e vifm ~/ / &
+    urxvt -e vifm ./ ~/ &
+
+# open files super-fast
+super + o
+    bolt --rofi-search &
 
 # browser
 super + w
     brave & 
+
+super + n
+    dofi &
 
 # calendar
 super + c

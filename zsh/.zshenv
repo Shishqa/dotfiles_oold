@@ -3,6 +3,10 @@
 export PATH="$PATH:$HOME/.local/bin"
 export SCRIPTS="$HOME/scripts"
 
+export TERMINAL="urxvt"
+export EDITOR="nvim"
+export EXPLORER="vifm"
+
 #==========================================================================#
 
 export DOTFILES="$HOME/.config"

@@ -33,8 +33,11 @@ plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
+    timer
 )
+
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=239"
+TIMER_FORMAT="\e[95m[%d]\e[39m"
 
 #==========================================================================#
 
