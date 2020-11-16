@@ -1,4 +1,5 @@
 
+URxvt.background: [98]#121212
 URxvt.scrollBar:      false
 URxvt.depth:          32
 URxvt.internalBorder: 18

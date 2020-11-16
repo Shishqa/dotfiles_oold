@@ -4,13 +4,21 @@ call plug#begin('~/.config/nvim/vim-plug')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = [
             \'coc-actions',
+            \'coc-highlight',
             \'coc-python', 
             \'coc-sh', 
             \'coc-html', 
             \'coc-clangd', 
             \'coc-snippets',
-            \'coc-template'
+            \'coc-fzf-preview'
             \]
+
+" FZF !!!
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+
+Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 " better commentary
 Plug 'tpope/vim-commentary'

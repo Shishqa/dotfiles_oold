@@ -107,6 +107,7 @@ pulseaudio-bluetooth
 python-dbus
 python-pywal
 radare2
+ripgrep
 rofi
 rofi-calc
 rox

@@ -37,7 +37,7 @@ plugins=(
 )
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=239"
-TIMER_FORMAT="\e[95m[%d]\e[39m"
+TIMER_FORMAT="\n\e[95m[%d]\e[39m"
 
 #==========================================================================#
 

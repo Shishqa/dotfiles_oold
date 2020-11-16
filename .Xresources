@@ -15,8 +15,6 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-# TEST
-
 ! COLORS !
 #include "/home/shishqa/.config/.Xresources.d/term-theme"
 
