@@ -6,6 +6,10 @@
 super + Return
 	urxvt
 
+# terminal in the same folder
+super + shift + Return
+       urxvt -cd `xdotool getactivewindow getwindowname | cut -d ":" -f 2 | sed -e 's@~@'"$HOME"'@'`
+
 # file explorer
 super + e
     urxvt -e vifm ./ ~/ &

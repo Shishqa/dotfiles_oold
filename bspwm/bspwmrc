@@ -27,9 +27,9 @@ bspc config removal_adjustment      true
 bspc config auto_cancel             true
 bspc config initial_polarity        second_child
 
-bspc config borderless_monocle      true
-bspc config single_monocle          false
 bspc config gapless_monocle         false
+bspc config borderless_monocle      true
+bspc config single_monocle          true
 
 bspc config focus_follows_pointer   true
 bspc config history_aware_focus     true
