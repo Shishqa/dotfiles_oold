@@ -13,11 +13,18 @@ let g:coc_global_extensions = [
             \'coc-fzf-preview'
             \]
 
+" Better cmake 
+Plug 'cdelledonne/vim-cmake'
+
+" Time tracking
+Plug 'wakatime/vim-wakatime'
+
 " FZF !!!
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
+" c++ hightlight
 Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 " better commentary

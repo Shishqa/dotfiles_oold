@@ -6,6 +6,7 @@ automake
 base
 batsignal
 bc
+bind
 binutils
 bluez
 bluez-utils
@@ -29,9 +30,11 @@ efibootmgr
 espeak
 expac
 fakeroot
+firefox
 flameshot
 freeglut
 fuse2
+fuse3
 fzf
 gcc
 gimp
@@ -54,6 +57,7 @@ inotify-tools
 jq
 jre-openjdk
 jshon
+jupyterlab
 kcachegrind
 lib32-gcc-libs
 libdbusmenu-glib
@@ -74,6 +78,7 @@ mpv
 nano
 nasm
 ncdu
+ncspot
 neofetch
 neovim
 nerd-fonts-iosevka
@@ -95,6 +100,7 @@ otf-inconsolata-lgc
 otf-san-francisco
 p7zip
 pacman-contrib
+pandoc
 patch
 perf
 pick-colour-picker
@@ -121,16 +127,18 @@ sierra-gtk-theme-git
 siji-git
 smalltalk
 snapd
-spotify-dev
 sudo
 sxhkd
+sxiv
 telegram-desktop
 termsyn-font
 texlive-core
 texlive-langcyrillic
+texlive-local-tcolorbox
 texlive-pictures
 texlive-science
 tk
+tllocalmgr-git
 tlp
 tlp-rdw
 tree
@@ -153,6 +161,7 @@ vifm
 vimiv
 virtualbox
 wget
+wireshark-qt
 wmctrl
 wmname
 wt
