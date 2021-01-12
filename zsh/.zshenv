@@ -2,10 +2,14 @@
 
 export PATH="$PATH:$HOME/.local/bin"
 export SCRIPTS="$HOME/scripts"
+export WORK="/mnt/WorkDisk/"
+
+#==========================================================================#
 
 export TERMINAL="urxvt"
 export EDITOR="nvim"
 export EXPLORER="vifm"
+export BROWSER="brave"
 
 #==========================================================================#
 

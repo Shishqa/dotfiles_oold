@@ -3,6 +3,8 @@
 
 picom &
 
+redshift -l "55.984768:92.755751" &
+
 nitrogen --restore &
 
 ~/.config/polybar/scripts/launch-polybar &
