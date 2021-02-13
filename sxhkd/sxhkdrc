@@ -25,8 +25,12 @@ super + w
     $BROWSER &
 
 # spotify client
-super + n
+super + alt + m
     $TERMINAL -name 'ncspot' -e ncspot &
+
+# notion 
+super + n
+    $BROWSER --new-window "https://www.notion.so/shishqa/Get-Things-Done-89cf6908783b4b45b37ff913535d0074" &
 
 # calendar
 super + c

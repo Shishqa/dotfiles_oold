@@ -16,9 +16,6 @@ let g:coc_global_extensions = [
 " Better cmake 
 Plug 'cdelledonne/vim-cmake'
 
-" Time tracking
-Plug 'wakatime/vim-wakatime'
-
 " FZF !!!
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'

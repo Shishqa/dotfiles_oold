@@ -1,6 +1,8 @@
 acpi
 alsa-utils
+ant-theme-git
 arandr
+arc-gtk-theme
 autoconf
 automake
 base
@@ -23,6 +25,8 @@ cronie
 ctags
 dialog
 dmenu
+docker
+docker-compose
 doxygen
 dunst
 edb-debugger
@@ -61,15 +65,18 @@ lib32-gcc-libs
 libdbusmenu-glib
 libinput-gestures
 libreoffice-fresh
+linux
 linux-firmware
 linux-lts
 linux-lts-docs
 linux-lts-headers
 luit
+lxappearance
 maim
 make
 man-db
 man-pages
+mariadb
 montserrat-font-otf
 mpc
 mpv
@@ -101,12 +108,14 @@ p7zip
 pacman-contrib
 pandoc
 patch
+pcmanfm
 perf
 pick-colour-picker
 picom
 pkgconf
 playerctl
 polybar
+postgresql
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -120,7 +129,6 @@ ripgrep
 rofi
 rofi-calc
 rofimoji
-rox
 ruby
 rxvt-unicode
 sdl2_image
@@ -130,7 +138,6 @@ sierra-gtk-theme-git
 siji-git
 smalltalk
 snapd
-steam
 sudo
 sxhkd
 sxiv
@@ -164,6 +171,7 @@ valgrind
 vifm
 vimiv
 virtualbox
+vk-messenger
 wget
 wireshark-qt
 wmctrl
@@ -212,6 +220,7 @@ xorg-xwud
 xournalpp
 xss-lock
 yay
+zafiro-icon-theme
 zart
 zathura
 zathura-djvu

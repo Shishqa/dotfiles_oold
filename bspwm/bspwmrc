@@ -40,10 +40,6 @@ bspc config focus_by_distance       true
 bspc monitor --reset-desktops TTY WEB CHAT DEV MED PROP
 
 #==========================================================================#
-bspc rule --add Firefox                   desktop='WEB'       follow=on
-bspc rule --add Chromium                  desktop='WEB'       follow=on
-bspc rule --add Brave-browser             desktop='WEB'       follow=on
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 bspc rule --add TelegramDesktop           desktop='CHAT'      follow=on
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 bspc rule --add jetbrains-clion           desktop='DEV'       follow=on

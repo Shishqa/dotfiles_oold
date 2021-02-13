@@ -18,13 +18,11 @@ export DOTFILES_UTIL="$DOTFILES/.util"
 
 #==========================================================================#
 
-export XDG_DOWNLOAD_DIR="$HOME/downloads"
-export XDG_REPOS_DIR="$HOME/repositories"
-export XDG_MEDIA_DIR="$HOME/media"
-export XDG_MUSIC_DIR="$HOME/media/music"
-export XDG_PICTURES_DIR="$HOME/media/pictures"
-export XDG_SCREENSHOTS_DIR="$HOME/media/screenshots"
-export XDG_CONFIG_DIR="$HOME/.config"
+#export XDG_CONFIG_DIR="$HOME/.config"
+
+#export XDG_MEDIA_DIR="$HOME/media"
+#export XDG_DOWNLOAD_DIR="$HOME/media/downloads"
+#export XDG_SCREENSHOTS_DIR="$HOME/media/screenshots"
 
 #==========================================================================#
 

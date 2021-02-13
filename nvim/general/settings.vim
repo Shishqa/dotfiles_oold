@@ -23,7 +23,7 @@ set mouse=a
 set so=7
 set wildmenu
 set ruler
-set number relativenumber
+set number
 set cmdheight=1                " Height of the command bar
 " set hidden                     " A buffer becomes hidden when it is abandoned
 set backspace=eol,start,indent " Configure backspace so it acts as it should act
