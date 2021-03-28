@@ -1,2 +1,3 @@
 cd /home/shishqa/dev/concurrency/course-main/docker/client/bin
-exec ./login
+./restart
+./login

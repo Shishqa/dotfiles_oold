@@ -21,7 +21,7 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 ! SIDE APPS !
-#include "/home/shishqa/.config/.Xresources.d/urxvt"
+! #include "/home/shishqa/.config/.Xresources.d/urxvt"
 #include "/home/shishqa/.config/.Xresources.d/rofi"
 
 /*##########################################################################*/
