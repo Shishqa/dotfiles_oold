@@ -6,7 +6,7 @@ export WORK="/mnt/WorkDisk/"
 
 #==========================================================================#
 
-export TERMINAL="urxvt"
+export TERMINAL="alacritty"
 export EDITOR="nvim"
 export EXPLORER="vifm"
 export BROWSER="brave"

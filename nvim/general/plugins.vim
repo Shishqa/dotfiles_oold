@@ -10,12 +10,16 @@ let g:coc_global_extensions = [
             \'coc-html', 
             \'coc-clangd', 
             \'coc-snippets',
-            \'coc-fzf-preview'
+            \'coc-fzf-preview',
+            \'coc-cmake'
             \]
 
-Plug 'pechorin/any-jump.vim'
+" Theme
+Plug 'ayu-theme/ayu-vim'
 
-" Better cmake 
+Plug 'tpope/vim-vinegar'
+
+" Build cmake from vim
 Plug 'cdelledonne/vim-cmake'
 
 " FZF !!!
@@ -31,9 +35,6 @@ Plug 'tpope/vim-commentary'
 
 " git changes
 Plug 'airblade/vim-gitgutter'
-
-" No-distraction mode
-Plug 'junegunn/goyo.vim'
 
 " LaTeX in vim
 Plug 'lervag/vimtex'
