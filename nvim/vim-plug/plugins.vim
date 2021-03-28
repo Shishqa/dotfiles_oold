@@ -13,6 +13,8 @@ let g:coc_global_extensions = [
             \'coc-fzf-preview'
             \]
 
+Plug 'pechorin/any-jump.vim'
+
 " Better cmake 
 Plug 'cdelledonne/vim-cmake'
 

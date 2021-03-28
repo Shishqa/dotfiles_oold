@@ -54,7 +54,7 @@ super + alt + b
 
 # wifi menu
 super + alt + w
-    rofi-wifi
+    rofi-wifimenu
 
 # power menu
 super + alt + q

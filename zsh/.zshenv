@@ -1,6 +1,6 @@
 #==========================================================================#
 
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/scripts:$HOME/.local/bin:$HOME/dev/luajit_perf/scripts"
 export SCRIPTS="$HOME/scripts"
 export WORK="/mnt/WorkDisk/"
 

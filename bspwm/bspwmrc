@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/zsh
 ############################################################################
 #
 #  ██████╗ ███████╗██████╗ ██╗    ██╗███╗   ███╗
@@ -37,25 +37,14 @@ bspc config focus_by_distance       true
 
 ############################################################################
 
-bspc monitor --reset-desktops TTY WEB CHAT DEV MED PROP
+if [[ $(xrandr --query | grep 'DP1 connected')
+ ]]; then
+    bspc monitor DP1 -d 1 2 3 4  
+    bspc monitor eDP1 -d 5 6 7 8
+else
+    bspc monitor eDP1 -d 1 2 3 4 5 6 7 8
+fi
 
-#==========================================================================#
-bspc rule --add TelegramDesktop           desktop='CHAT'      follow=on
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-bspc rule --add jetbrains-clion           desktop='DEV'       follow=on
-bspc rule --add jetbrains-pycharm         desktop='DEV'       follow=on
-bspc rule --add jetbrains-webstorm        desktop='DEV'       follow=on
-bspc rule --add edb                       desktop='DEV'       follow=on
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-bspc rule --add libreoffice-startcenter   desktop='MED'       follow=on  
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-bspc rule --add Gimp                      desktop='MED'       follow=on
-bspc rule --add Inkscape                  desktop='MED'       follow=on
-bspc rule --add Dia                       desktop='MED'       follow=on state=floating
-bspc rule --add Spotify:Spotify Premium   desktop='MED'       follow=on
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-bspc rule --add Nitrogen                  desktop='PROP'      follow=on
-bspc rule --add Lxappearance              desktop='PROP'      follow=on
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 bspc rule --add Pick-colour-picker        state=floating sticky=on
 bspc rule --add vlc                       state=floating 

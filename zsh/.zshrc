@@ -41,7 +41,10 @@ TIMER_FORMAT="\n\e[95m[%d]\e[39m"
 
 #==========================================================================#
 
-source $ZSH/oh-my-zsh.sh
+[ -f "$ZSH/oh-my-zsh.sh" ] && source "$ZSH/oh-my-zsh.sh"
+
+[ -f "/usr/share/fzf/key-bindings.zsh" ] && source "/usr/share/fzf/key-bindings.zsh"
+[ -f "/usr/share/fzf/completion.zsh" ] && source "/usr/share/fzf/completion.zsh"
 
 #==========================================================================#
 
