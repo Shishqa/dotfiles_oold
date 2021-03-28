@@ -14,7 +14,6 @@
 !zsh/
 !nvim/
 !vifm/
-!bolt/
 !bspwm/
 !htop/
 !dunst/
@@ -24,5 +23,4 @@
 !polybar/
 !sxhkd/
 !picom/
-!dofi/
-
+!autorandr/
