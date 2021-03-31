@@ -42,7 +42,7 @@ dpkg
 dunst
 edb-debugger
 efibootmgr
-espeak
+espeak-ng-espeak
 expac
 expressvpn
 fakeroot
@@ -56,6 +56,7 @@ fzf
 gcc
 gdb
 git
+git-filter-repo
 glfw-wayland
 glm
 glxinfo

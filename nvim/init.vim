@@ -12,15 +12,10 @@
 
 source $HOME/.config/nvim/general/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
+source $HOME/.config/nvim/general/terminal.vim
+source $HOME/.config/nvim/general/netrw.vim
 source $HOME/.config/nvim/general/mappings.vim
-
 source $HOME/.config/nvim/plug-config/configs.vim
-
-"=========================================================================="
-
-set termguicolors
-let ayucolor="dark"
-colorscheme ayu
 
 "##########################################################################"
 " Providers config (nvim special)

@@ -1,5 +1,11 @@
 "=========================================================================="
 
+set termguicolors
+let ayucolor="dark"
+colorscheme ayu
+
+"=========================================================================="
+
 set history=500
 
 set viminfo=%,<800,'10,/50,:100,h,f0,n~/.config/nvim/cache/.viminfo
@@ -25,7 +31,6 @@ set wildmenu
 set ruler
 set number
 set cmdheight=1                " Height of the command bar
-" set hidden                     " A buffer becomes hidden when it is abandoned
 set backspace=eol,start,indent " Configure backspace so it acts as it should act
 set whichwrap+=<,>,h,l
 set updatetime=300             " Making things faster
@@ -44,6 +49,11 @@ set expandtab                  " Use spaces instead of tabs
 set smarttab                   " Be smart when using tabs ;)
 set shiftwidth=4               " 1 tab == 4 spaces
 set tabstop=4
+
+" open new split panes to right and below
+set splitright
+set splitbelow
+
 
 filetype plugin indent on
 set ai                         " Auto indent
@@ -73,21 +83,5 @@ endfunction
 
 " Format the status line
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
-
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-" open new split panes to right and below
-set splitright
-set splitbelow
-
-" start terminal in insert mode
-au BufEnter * if &buftype == 'terminal' | :startinsert | endif
-
-" open terminal on ctrl+n
-function! OpenTerminal()
-  split term://zsh
-  resize 10
-endfunction
-nnoremap <c-n> :call OpenTerminal()<CR>
 
 "=========================================================================="
