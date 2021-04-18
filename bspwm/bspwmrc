@@ -16,6 +16,7 @@ export BSPWM_CONFIG="$HOME/.config/bspwm"
 ############################################################################
 
 bspc config window_gap              10
+bspc config corner-radius           8
 
 bspc config border_width            1
 bspc config normal_border_color     "#121212"

@@ -1,8 +1,8 @@
 "=========================================================================="
 
 set termguicolors
-let ayucolor="dark"
-colorscheme ayu
+set background=dark
+colorscheme PaperColor
 
 "=========================================================================="
 

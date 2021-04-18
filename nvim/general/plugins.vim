@@ -6,18 +6,14 @@ call plug#begin('~/.config/nvim/vim-plug')
 " >> coc.nvim completion engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = [
-            \'coc-actions',
+            \'coc-python',
             \'coc-highlight',
-            \'coc-python', 
-            \'coc-sh', 
-            \'coc-html', 
-            \'coc-clangd', 
             \'coc-snippets',
             \'coc-fzf-preview',
             \'coc-cmake'
             \]
 
-" >> FZF !!!
+" >> FZF 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -36,8 +32,8 @@ Plug 'airblade/vim-gitgutter'
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 " * Colors
 
-" >> ayu theme
-Plug 'ayu-theme/ayu-vim'
+" >> papercolor theme (very nice, actually)
+Plug 'NLKNguyen/papercolor-theme'
 
 " >> C++ hightlight
 Plug 'jackguo380/vim-lsp-cxx-highlight'
@@ -56,6 +52,8 @@ Plug 'lervag/vimtex'
 
 " Markdown in vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+Plug 'fatih/vim-go'
 
 "============================================================================"
 call plug#end()
