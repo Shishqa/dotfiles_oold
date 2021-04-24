@@ -52,6 +52,7 @@ Plug 'lervag/vimtex'
 
 " Markdown in vim
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'dhruvasagar/vim-marp'
 
 Plug 'fatih/vim-go'
 

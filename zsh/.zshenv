@@ -9,6 +9,7 @@ export TERMINAL="alacritty"
 export EDITOR="nvim"
 export EXPLORER="vifm"
 export BROWSER="brave"
+export CHROME_PATH="/bin/brave"
 
 #==========================================================================#
 
